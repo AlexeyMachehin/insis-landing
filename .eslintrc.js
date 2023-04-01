@@ -5,8 +5,8 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: 'vue-eslint-parser',
     requireConfigFile: false,
     ecmaVersion: 12,
     sourceType: 'module',
