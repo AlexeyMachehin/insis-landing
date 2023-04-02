@@ -107,6 +107,10 @@
   top: 15px;
 }
 
+.ladder-divider {
+  background-color: red;
+}
+
 @media screen and (max-width: 825px) {
   .description {
     max-width: 400px;

@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: "IndexPage",
 };
 </script>
 
@@ -18,6 +18,5 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: blue;
 }
 </style>

@@ -23,3 +23,8 @@
   border-radius: 50px;
   background: var(--main-button-background);
 }
+
+.ladder-divider {
+  height: 8px;
+  background-image: url("@/static/images/ladder-divider.svg");
+}
