@@ -1,5 +1,6 @@
 <template>
   <section class="questions">
+    <div class="ladder-divider divider-rotate"></div>
     <div class="container">questions</div>
   </section>
 </template>
