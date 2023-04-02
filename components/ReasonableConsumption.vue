@@ -32,7 +32,7 @@
 
 <style scoped>
 .reasonable-consumption {
-  height: 820px;
+  height: 812px;
   background-color: var(--section-background-var-1);
 }
 
@@ -114,6 +114,10 @@
 }
 
 @media screen and (max-width: 716px) {
+  .reasonable-consumption {
+    height: 666px;
+  }
+
   .earth-image {
     width: 690px;
     height: 585px;
