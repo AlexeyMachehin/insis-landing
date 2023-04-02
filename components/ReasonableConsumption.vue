@@ -6,7 +6,7 @@
           class="insis-logo img-fluid"
           src="@/static/images/insis-logo.svg"
           alt="insis logo" />
-        <a href="tel:88002506060" class="reasonable-consumption_phone"
+        <a href="tel:88002506060" class="reasonable-consumption__phone"
           >8 800 250 60 60</a
         >
       </header>
@@ -14,9 +14,19 @@
         За <span class="accent-text accent-text-title">разумное</span> <br />
         потребление
       </h1>
-      <div class="description">
-        до <span class="accent-text accent-text-description">100 Мбит/с</span> +
-        от <span class="accent-text accent-text-description">150 каналов</span>
+      <div class="description-wrapper">
+        <div class="description">
+          <div>
+            до
+            <span class="accent-text accent-text-description">100 Мбит/с </span>
+          </div>
+
+          <div>
+            + от
+            <span class="accent-text accent-text-description">150 каналов</span>
+          </div>
+        </div>
+
         Первый месяц бесплатно
       </div>
       <button type="button" class="btn btn-primary main-button">
@@ -49,7 +59,7 @@
   margin-bottom: 100px;
 }
 
-.reasonable-consumption_phone {
+.reasonable-consumption__phone {
   font-weight: 700;
   font-size: 36px;
   color: var(--section-background-var-2);
@@ -58,8 +68,6 @@
 
 .earth-image {
   position: absolute;
-  width: 763px;
-  height: 650px;
   top: 74px;
   left: 50%;
 }
@@ -74,15 +82,9 @@
 }
 
 .reasonable-consumption__title {
-  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
-  font-size: 48px;
   color: var(--section-background-var-2);
   margin-bottom: 38px;
-}
-
-.accent-text-title {
-  color: var(--reasonable-consumption-accent-text);
 }
 
 .accent-text-description {
@@ -90,14 +92,15 @@
   color: #4d423c;
 }
 
-.description {
+.description-wrapper {
   position: relative;
   max-width: 470px;
   padding-left: 66px;
   margin-bottom: 38px;
+  color: var(--font-var-1);
 }
 
-.description::before {
+.description-wrapper::before {
   position: absolute;
   content: "";
   background-image: url("@/static/images/dash.svg");
@@ -111,13 +114,25 @@
   background-color: red;
 }
 
-@media screen and (max-width: 825px) {
+.description {
+  display: flex;
+}
+
+@media screen and (max-width: 950px) {
   .description {
-    max-width: 400px;
+    display: block;
+  }
+
+  .description-wrapper {
+    max-width: 275px;
+  }
+
+  .reasonable-consumption__title {
+    font-size: 55px;
   }
 }
 
-@media screen and (max-width: 716px) {
+@media screen and (max-width: 750px) {
   .reasonable-consumption {
     height: 666px;
   }
@@ -132,16 +147,16 @@
     height: 49px;
   }
 
-  .reasonable-consumption_phone {
+  .reasonable-consumption__phone {
     font-size: 24px;
   }
 
   .reasonable-consumption__title {
-    font-size: 45px;
+    font-size: 40px;
   }
 
-  .description {
-    max-width: 235px;
+  .description-wrapper {
+    max-width: 275px;
     font-size: 20px;
   }
 
