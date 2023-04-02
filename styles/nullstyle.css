@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
   border: 0;
-
-  /* font-family: 'Roboto', sans-serif; */
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -53,6 +51,7 @@ html {
 body {
   height: 100%;
   width: 100%;
+  min-width: 576px;
 }
 
 input {

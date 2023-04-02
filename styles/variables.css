@@ -1,3 +1,12 @@
 :root {
+  /* sections backgrounds */
+  --section-background-var-1: #edd2c0;
+  --section-background-var-2: #5e4f47;
+  --section-background-var-3: #6ea03f;
 
+  /* accent text */
+  --reasonable-consumption-accent-text: #6ba539;
+
+  /* button */
+  --main-button-background: #117ac9;
 }
