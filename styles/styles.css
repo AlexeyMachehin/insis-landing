@@ -1,0 +1,24 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container {
+  height: 100%;
+  max-width: 1500px;
+  padding: 48px;
+}
+
+.accent-text {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.main-button {
+  width: 275px;
+  height: 77px;
+  border-radius: 50px;
+  background: var(--main-button-background);
+}
