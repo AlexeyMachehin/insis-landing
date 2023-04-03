@@ -7,7 +7,7 @@
 
 <style scoped>
 .questions {
-  height: 680px;
+  /* height: 680px; */
   background-color: var(--section-background-var-3);
 }
 </style>

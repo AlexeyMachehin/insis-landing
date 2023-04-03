@@ -15,8 +15,16 @@ export default {
 
 <style scoped>
 .main {
+  /* height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
+}
+
+section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 </style>
