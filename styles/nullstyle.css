@@ -94,7 +94,7 @@ img {
   vertical-align: top;
 }
 
-/* #__nuxt {
+#__nuxt {
   height: 100%;
   width: 100%;
 }
@@ -102,4 +102,4 @@ img {
 #__layout {
   height: 100%;
   width: 100%;
-} */
+}

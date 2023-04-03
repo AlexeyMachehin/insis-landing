@@ -10,39 +10,48 @@
           >8 800 250 60 60</a
         >
       </header>
-      <h1 class="reasonable-consumption__title">
-        За <span class="accent-text accent-text-title">разумное</span> <br />
-        потребление
-      </h1>
-      <div class="description-wrapper">
-        <div class="description">
-          <div>
-            до
-            <span class="accent-text accent-text-description">100 Мбит/с </span>
-          </div>
+      <div class="wrapper">
+        <div>
+          <h1 class="reasonable-consumption__title">
+            За <span class="accent-text accent-text-title">разумное</span>
+            <br />
+            потребление
+          </h1>
+          <div class="description-wrapper">
+            <div class="description">
+              <div>
+                до
+                <span class="accent-text accent-text-description"
+                  >100 Мбит/с
+                </span>
+              </div>
 
-          <div>
-            + от
-            <span class="accent-text accent-text-description">150 каналов</span>
+              <div>
+                + от
+                <span class="accent-text accent-text-description"
+                  >150 каналов</span
+                >
+              </div>
+            </div>
+
+            Первый месяц бесплатно
           </div>
+          <button type="button" class="btn btn-primary main-button">
+            Оставить заявку
+          </button>
         </div>
-
-        Первый месяц бесплатно
+          <img
+            class="earth-image"
+            src="@/static/images/earth.svg"
+            alt="earth-image" />
       </div>
-      <button type="button" class="btn btn-primary main-button">
-        Оставить заявку
-      </button>
-      <img
-        class="earth-image"
-        src="@/static/images/earth.svg"
-        alt="earth-image" />
     </div>
   </section>
 </template>
 
 <style scoped>
 .reasonable-consumption {
-  height: 812px;
+  /* height: 812px; */
   background-color: var(--section-background-var-1);
 }
 
@@ -67,12 +76,18 @@
 }
 
 .earth-image {
-  position: absolute;
+  /* position: absolute; */
+  margin-top: -130px;
   top: 74px;
   left: 50%;
 }
 
 .main-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -134,7 +149,7 @@
 
 @media screen and (max-width: 750px) {
   .reasonable-consumption {
-    height: 666px;
+    /* height: 666px; */
   }
 
   .earth-image {
