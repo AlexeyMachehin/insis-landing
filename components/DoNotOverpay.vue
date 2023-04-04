@@ -92,7 +92,6 @@
 }
 
 .do-not-overpay {
-  /* height: 850px; */
   background-color: var(--section-background-var-2);
 }
 
