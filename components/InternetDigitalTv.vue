@@ -147,21 +147,14 @@
 }
 
 .internet-digital-tv {
-  /* height: 1055px; */
   background-color: var(--section-background-var-1);
 }
 
 .internet-digital-tv__title {
-  margin-top: 138px;
   font-weight: 400;
 }
 
 .container {
-  /* background-image: url("@/static/images/computer.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; */
-  min-height: 1055px;
   display: flex;
   flex-direction: column;
   align-items: center;
