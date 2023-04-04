@@ -55,7 +55,6 @@
 }
 
 .reasonable-consumption {
-  /* height: 812px; */
   background-color: var(--section-background-var-1);
 }
 
@@ -80,7 +79,6 @@
 }
 
 .earth-image {
-  /* position: absolute; */
   margin-top: -130px;
   top: 74px;
   left: 50%;
@@ -152,10 +150,6 @@
 }
 
 @media screen and (max-width: 750px) {
-  .reasonable-consumption {
-    /* height: 666px; */
-  }
-
   .earth-image {
     width: 690px;
     height: 585px;

@@ -123,7 +123,7 @@
   justify-content: space-between;
   padding-top: 66px;
   margin-top: 96px;
-  border-top: 2px dashed var(--font-var-2);
+  border-top: var(--dashed-border);
 }
 
 .agreement {

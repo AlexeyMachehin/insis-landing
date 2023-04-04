@@ -11,4 +11,7 @@
   --reasonable-consumption-accent-text: #6ba539;
   --font-var-1: #4d423c;
   --font-var-2: #ffffff;
+
+  /* border */
+  --dashed-border: 2px dashed var(--font-var-2);
 }
