@@ -40,16 +40,20 @@
             Оставить заявку
           </button>
         </div>
-          <img
-            class="earth-image"
-            src="@/static/images/earth.svg"
-            alt="earth-image" />
+        <img
+          class="earth-image"
+          src="@/static/images/earth.svg"
+          alt="earth-image" />
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
+.main-button {
+  width: 275px;
+}
+
 .reasonable-consumption {
   /* height: 812px; */
   background-color: var(--section-background-var-1);

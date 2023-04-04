@@ -5,7 +5,6 @@
 }
 
 .container {
-  /* height: 100%; */
   max-width: 1500px;
   padding: 48px;
   overflow-x: hidden;
@@ -18,8 +17,9 @@
 }
 
 .main-button {
-  width: 275px;
   height: 77px;
+  font-weight: 700;
+  font-size: 20px;
   border-radius: 50px;
   background: var(--main-button-background);
 }
