@@ -1,0 +1,55 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1500px;
+  padding: 48px;
+  overflow-x: hidden;
+}
+
+.accent-text {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.main-button {
+  height: 77px;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50px;
+  background: var(--main-button-background);
+}
+
+.ladder-divider {
+  height: 8px;
+  background-image: url("@/static/images/ladder-divider.svg");
+}
+
+.divider-rotate {
+  transform: rotate(180deg);
+}
+
+h1 {
+  font-size: 64px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.accent-text-title {
+  font-weight: 700;
+  color: var(--reasonable-consumption-accent-text);
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    padding: 30px;
+  }
+}

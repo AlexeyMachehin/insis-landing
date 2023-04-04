@@ -1,0 +1,14 @@
+:root {
+  /* sections backgrounds */
+  --section-background-var-1: #edd2c0;
+  --section-background-var-2: #5e4f47;
+  --section-background-var-3: #6ea03f;
+
+  /* button */
+  --main-button-background: #117ac9;
+
+  /* fonts */
+  --reasonable-consumption-accent-text: #6ba539;
+  --font-var-1: #4d423c;
+  --font-var-2: #ffffff;
+}
