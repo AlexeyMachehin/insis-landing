@@ -12,6 +12,7 @@
           class="computer-image img-fluid"
           src="@/static/images/computer.png"
           alt="computer" />
+
         <div class="achievement application">
           <img
             class="achievement-icon"
@@ -22,6 +23,7 @@
             Инсис ТВ
           </div>
         </div>
+
         <div class="achievement channels">
           <img
             class="achievement-icon"
@@ -32,6 +34,7 @@
             выбор каналов
           </div>
         </div>
+
         <div class="achievement support">
           <img
             class="achievement-icon"
@@ -44,6 +47,7 @@
             >
           </div>
         </div>
+
         <div class="achievement connection">
           <img
             class="achievement-icon"
@@ -54,6 +58,7 @@
             подключение
           </div>
         </div>
+
         <img
           class="application-arrow arrow"
           src="@/static/images/arrow.svg"

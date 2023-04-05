@@ -10,6 +10,7 @@
           >8 800 250 60 60</a
         >
       </header>
+
       <div class="wrapper">
         <div>
           <h1 class="reasonable-consumption__title">
@@ -36,10 +37,12 @@
 
             Первый месяц бесплатно
           </div>
+
           <button type="button" class="btn btn-primary main-button">
             Оставить заявку
           </button>
         </div>
+
         <img
           class="earth-image"
           src="@/static/images/earth.svg"
