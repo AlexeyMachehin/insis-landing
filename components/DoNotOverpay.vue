@@ -20,6 +20,7 @@
           </div>
         </div>
       </div>
+
       <div class="advantages-list">
         <div class="advantage">
           <img
@@ -31,6 +32,7 @@
             <span class="advantage-accent-text">необходимая </span>скорость
           </div>
         </div>
+
         <div class="advantage">
           <img
             class="advantage__image"
@@ -40,6 +42,7 @@
             Только <span class="advantage-accent-text">разумная</span> цена
           </div>
         </div>
+
         <div class="advantage">
           <img
             class="advantage__image"
