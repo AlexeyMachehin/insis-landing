@@ -2,20 +2,18 @@
   <section class="questions">
     <div class="ladder-divider divider-rotate"></div>
     <div class="container">
-      <div class="questions__main">
+      <div class="main-content">
         <div class="still-questions">
           <h2 class="still-questions__title">Остались вопросы?</h2>
           <div>Оставляй заявку</div>
         </div>
 
         <div class="callback">
-          <div class="callback__achievement">
-            Объясняем понятно, решаем быстро
-          </div>
+          <div class="achievement">Объясняем понятно, решаем быстро</div>
 
-          <form class="callback__form" action="">
+          <form class="form" action="">
             <input
-              class="callback__input"
+              class="form__input"
               type="tel"
               placeholder="+7 (___) ___-__-__" />
             <button class="btn btn-primary main-button">Перезвоните мне</button>
@@ -28,31 +26,33 @@
         </div>
       </div>
 
-      <footer class="questions__footer">
-        <div class="logo-wrapper">
+      <footer class="footer">
+        <div class="logo">
           <img
             src="@/static/images/insis-footer-logo.svg"
             alt="insis-footer-logo" />
-          <div class="logo-years">2007-2022 год</div>
+
+          <div class="logo__years">2007-2022 год</div>
         </div>
 
-        <div class="social-wrapper">
-          <div class="social-title">Мы в соц. сетях:</div>
+        <div class="social">
+          <div class="social__title">Мы в соц. сетях:</div>
+
           <div class="icons-wrapper">
-            <a class="icon-link" href="#"
+            <a class="social__link" href="#"
               ><img src="@/static/images/vk-logo.svg" alt="vk-logo"
             /></a>
-            <a class="icon-link" href="#"
+
+            <a class="social__link" href="#"
               ><img src="@/static/images/youtube-logo.svg" alt="youtube-logo"
             /></a>
           </div>
         </div>
 
-        <div class="contacts-wrapper">
-          <a href="tel:88002506060" class="questions__footer__phone"
-            >8-800-250-60-60</a
-          >
-          <a href="mailto:info@profintel.ru" class="questions__footer__mail"
+        <div class="contacts">
+          <a href="tel:88002506060" class="contacts__phone">8-800-250-60-60</a>
+
+          <a href="mailto:info@profintel.ru" class="contacts__mail"
             >info@profintel.ru</a
           >
         </div>
@@ -68,37 +68,37 @@
   right: 0;
 }
 
-.callback__form {
+.form {
   position: relative;
   margin: 38px 0;
 }
 
-.callback__input {
+.form__input {
   width: 100%;
   height: 77px;
   padding-left: 48px;
   border-radius: 39px;
 }
 
-.questions__footer__mail {
+.contacts__mail {
   font-weight: 600;
   font-size: 15px;
   color: var(--font-var-2);
   text-decoration-line: underline;
 }
 
-.questions__footer__phone {
+.contacts__phone {
   font-weight: 700;
   color: var(--font-var-2);
 }
 
-.contacts-wrapper {
+.contacts {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-.icon-link {
+.social__link {
   display: flex;
 }
 
@@ -107,18 +107,18 @@
   justify-content: space-between;
 }
 
-.social-title {
+.social__title {
   margin-bottom: 5px;
   font-size: 12px;
 }
 
-.logo-years {
+.logo__years {
   font-weight: 300;
   font-size: 12px;
   margin-top: 10px;
 }
 
-.questions__footer {
+.footer {
   display: flex;
   justify-content: space-between;
   padding-top: 66px;
@@ -134,7 +134,7 @@
   max-width: 562px;
 }
 
-.questions__main {
+.main-content {
   display: flex;
 }
 
@@ -170,7 +170,7 @@
     padding-right: 0;
   }
 
-  .questions__main {
+  .main-content {
     flex-direction: column;
     align-items: center;
   }
@@ -179,31 +179,31 @@
     content: none;
   }
 
-  .questions__footer {
+  .footer {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
 
-  .logo-wrapper {
+  .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     order: 1;
   }
 
-  .contacts-wrapper {
+  .contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
     order: 2;
   }
 
-  .social-wrapper {
+  .social {
     order: 3;
   }
 
-  .callback__achievement {
+  .achievement {
     display: none;
   }
 
@@ -218,7 +218,7 @@
     text-align: center;
   }
 
-  .callback__form {
+  .form {
     position: static;
   }
 
