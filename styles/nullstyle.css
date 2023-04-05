@@ -101,4 +101,5 @@ img {
 #__layout {
   height: 100%;
   width: 100%;
+  background-color: var(--section-background-var-1);
 }
