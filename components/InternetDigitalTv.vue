@@ -3,8 +3,11 @@
     <div class="container">
       <h2 class="internet-digital-tv__title">
         Интернет + Цифровое
-        <span class="accent-text accent-text-title">ТВ</span>
+        <span class="accent-text internet-digital-tv__title__accent-text"
+          >ТВ</span
+        >
       </h2>
+
       <div>Чистая выгода</div>
 
       <div class="achievements-wrapper">
@@ -15,34 +18,39 @@
 
         <div class="achievement application">
           <img
-            class="achievement-icon"
+            class="achievement__icon"
             src="@/static/images/monitor-icon.svg"
             alt="monitor-icon" />
-          <div class="achievement-description">
-            <span class="achievement-description__accent-text">Приложение</span>
+
+          <div class="achievement__description">
+            <span class="achievement__description__accent-text"
+              >Приложение</span
+            >
             Инсис ТВ
           </div>
         </div>
 
         <div class="achievement channels">
           <img
-            class="achievement-icon"
+            class="achievement__icon"
             src="@/static/images/antenna.svg"
             alt="antenna-icon" />
-          <div class="achievement-description">
-            <span class="achievement-description__accent-text">Хороший</span>
+
+          <div class="achievement__description">
+            <span class="achievement__description__accent-text">Хороший</span>
             выбор каналов
           </div>
         </div>
 
         <div class="achievement support">
           <img
-            class="achievement-icon"
+            class="achievement__icon"
             src="@/static/images/tech-support.svg"
             alt="tech-support-icon" />
-          <div class="achievement-description">
+
+          <div class="achievement__description">
             Надежная тех.поддержка в &#32;<span
-              class="achievement-description__accent-text"
+              class="achievement__description__accent-text"
               >любое время</span
             >
           </div>
@@ -50,11 +58,12 @@
 
         <div class="achievement connection">
           <img
-            class="achievement-icon"
+            class="achievement__icon"
             src="@/static/images/lightning.svg"
             alt="lightning-icon" />
-          <div class="achievement-description">
-            <span class="achievement-description__accent-text">Быстрое</span>
+
+          <div class="achievement__description">
+            <span class="achievement__description__accent-text">Быстрое</span>
             подключение
           </div>
         </div>
@@ -63,14 +72,17 @@
           class="application-arrow arrow"
           src="@/static/images/arrow.svg"
           alt="application-arrow" />
+
         <img
           class="channels-arrow arrow"
           src="@/static/images/arrow.svg"
           alt="channels-arrow" />
+
         <img
           class="support-arrow arrow"
           src="@/static/images/arrow.svg"
           alt="support-arrow" />
+
         <img
           class="connection-arrow arrow"
           src="@/static/images/arrow.svg"
@@ -131,11 +143,11 @@
   top: 728px;
 }
 
-.achievement-description__accent-text {
+.achievement__description__accent-text {
   font-weight: 700;
 }
 
-.achievement-description {
+.achievement__description {
   max-width: 200px;
   margin-left: 18px;
   color: var(--section-background-var-2);
@@ -165,7 +177,7 @@
   align-items: center;
 }
 
-.accent-text-title {
+.internet-digital-tv__title__accent-text {
   font-weight: 400;
   color: var(--section-background-var-3);
 }
@@ -278,17 +290,17 @@
     transform: rotate(148.3deg) scale(0.5);
   }
 
-  .achievement-description {
+  .achievement__description {
     max-width: 130px;
     font-size: 16px;
     margin-left: 3px;
   }
 
-  .achievement-description__accent-text {
+  .achievement__description__accent-text {
     font-size: 16px;
   }
 
-  .achievement-icon {
+  .achievement__icon {
     transform: scale(0.7);
   }
 

@@ -1,58 +1,71 @@
 <template>
   <section class="do-not-overpay">
     <div class="ladder-divider divider-rotate"></div>
+
     <div class="container">
       <div class="main-content">
         <img
           class="wallet-image"
           src="@/static/images/wallet.svg"
           alt="wallet" />
+
         <div class="description">
-          <h2 class="do-not-overpay__title">
+          <h2 class="description__title">
             <span class="accent-text accent-text-title"
               >Не переплачивайте!</span
             >
             За то, что другие навязывают.
           </h2>
+
           <div class="description__content">
-            <span class="accent-term">Рациональное потребление</span>
+            <span class="description__content__accent-text"
+              >Рациональное потребление</span
+            >
             – пользоваться тем, что действительно надо
           </div>
         </div>
       </div>
 
-      <div class="advantages-list">
-        <div class="advantage">
+      <ul class="advantages-list">
+        <li class="advantage">
           <img
             class="advantage__image"
             src="@/static/images/only-required-speed.svg"
             alt="only-required-speed" />
+
           <div class="advantage__description">
             Только
-            <span class="advantage-accent-text">необходимая </span>скорость
+            <span class="advantage__description__accent-text">необходимая </span
+            >скорость
           </div>
-        </div>
+        </li>
 
-        <div class="advantage">
+        <li class="advantage">
           <img
             class="advantage__image"
             src="@/static/images/only-reasonable-price.svg"
             alt="only-reasonable-price" />
-          <div class="advantage__description">
-            Только <span class="advantage-accent-text">разумная</span> цена
-          </div>
-        </div>
 
-        <div class="advantage">
+          <div class="advantage__description">
+            Только
+            <span class="advantage__description__accent-text">разумная</span>
+            цена
+          </div>
+        </li>
+
+        <li class="advantage">
           <img
             class="advantage__image"
             src="@/static/images/only-favorable-conditions.svg"
             alt="only-favorable-conditions" />
+
           <div class="advantage__description">
-            Только <span class="advantage-accent-text">выгодные</span> условия
+            Только
+            <span class="advantage__description__accent-text">выгодные</span>
+            условия
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
     <div class="ladder-divider"></div>
   </section>
@@ -64,12 +77,12 @@
   height: 86px;
 }
 
-.advantage-accent-text {
+.advantage__description__accent-text {
   font-weight: 600;
   color: var(--reasonable-consumption-accent-text);
 }
 
-.accent-term {
+.description__content__accent-text {
   font-weight: 700;
 }
 
@@ -110,7 +123,7 @@
   color: var(--font-var-2);
 }
 
-.do-not-overpay__title {
+.description__title {
   margin-bottom: 40px;
 }
 
@@ -139,7 +152,7 @@
     height: 300px;
   }
 
-  .do-not-overpay__title {
+  .description__title {
     font-size: 32px;
   }
 
@@ -147,7 +160,7 @@
     font-size: 20px;
   }
 
-  .accent-term {
+  .description__content__accent-text {
     font-size: 20px;
   }
 }
@@ -163,7 +176,7 @@
     width: 100px;
   }
 
-  .advantage-accent-text {
+  .advantage__description__accent-text {
     font-size: 16px;
   }
 

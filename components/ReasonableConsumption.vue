@@ -1,35 +1,35 @@
 <template>
   <section class="reasonable-consumption">
     <div class="container">
-      <header class="reasonable-consumption__header">
+      <header class="header">
         <img
-          class="insis-logo img-fluid"
+          class="header__insis-logo"
           src="@/static/images/insis-logo.svg"
           alt="insis logo" />
-        <a href="tel:88002506060" class="reasonable-consumption__phone"
-          >8 800 250 60 60</a
-        >
+
+        <a href="tel:88002506060" class="header__phone">8 800 250 60 60</a>
       </header>
 
-      <div class="wrapper">
+      <div class="main-content">
         <div>
-          <h1 class="reasonable-consumption__title">
-            За <span class="accent-text accent-text-title">разумное</span>
+          <h1 class="title">
+            За <span class="accent-text title__accent-text">разумное</span>
             <br />
             потребление
           </h1>
+
           <div class="description-wrapper">
             <div class="description">
               <div>
                 до
-                <span class="accent-text accent-text-description"
+                <span class="accent-text description__accent-text"
                   >100 Мбит/с
                 </span>
               </div>
 
               <div>
                 + от
-                <span class="accent-text accent-text-description"
+                <span class="accent-text description__accent-text"
                   >150 каналов</span
                 >
               </div>
@@ -61,20 +61,20 @@
   background-color: var(--section-background-var-1);
 }
 
-.insis-logo {
+.header__insis-logo {
   width: 293px;
   height: 74px;
   margin-right: 10px;
 }
 
-.reasonable-consumption__header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 100px;
 }
 
-.reasonable-consumption__phone {
+.header__phone {
   font-weight: 700;
   font-size: 36px;
   color: var(--section-background-var-2);
@@ -87,12 +87,12 @@
   left: 50%;
 }
 
-.main-content-wrapper {
+.main-content-main-content {
   display: flex;
   justify-content: space-between;
 }
 
-.wrapper {
+.main-content {
   display: flex;
   justify-content: space-between;
 }
@@ -101,13 +101,13 @@
   position: relative;
 }
 
-.reasonable-consumption__title {
+.title {
   font-weight: 700;
   color: var(--section-background-var-2);
   margin-bottom: 38px;
 }
 
-.accent-text-description {
+.description__accent-text {
   font-weight: 700;
   color: var(--font-var-1);
 }
@@ -143,7 +143,7 @@
     max-width: 275px;
   }
 
-  .reasonable-consumption__title {
+  .title {
     font-size: 55px;
   }
 }
@@ -154,16 +154,16 @@
     height: 585px;
   }
 
-  .insis-logo {
+  .header__insis-logo {
     width: 193px;
     height: 49px;
   }
 
-  .reasonable-consumption__phone {
+  .header__phone {
     font-size: 24px;
   }
 
-  .reasonable-consumption__title {
+  .title {
     font-size: 40px;
   }
 
