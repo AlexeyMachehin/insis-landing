@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main>
     <ReasonableConsumption />
     <DoNotOverpay />
     <InternetDigitalTv />

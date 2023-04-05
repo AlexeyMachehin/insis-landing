@@ -106,7 +106,7 @@
 
 .accent-text-description {
   font-weight: 700;
-  color: #4d423c;
+  color: var(--font-var-1);
 }
 
 .description-wrapper {
@@ -125,10 +125,6 @@
   height: 8px;
   left: 0;
   top: 15px;
-}
-
-.ladder-divider {
-  background-color: red;
 }
 
 .description {
